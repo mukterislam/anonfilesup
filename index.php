@@ -52,7 +52,7 @@ if (isset($_POST["submit"])) {
           <form action="" method="POST" enctype="multipart/form-data">
             <div class="mb-3">
               <label for="file" class="form-label">File</label>
-              <input class="form-control" type="text" name="file" id="file" required>
+              <input class="form-control" type="file" name="file" id="file" required>
             </div>
             <button type="submit" class="btn btn-primary" name="submit">Upload to cloud</button>
           </form>
